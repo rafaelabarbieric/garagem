@@ -1,6 +1,5 @@
 from django.db import models
 
-from django.template.defaultfilters import upper
 
 class Modelo(models.Model):
     nome = models.CharField(max_length=80)
